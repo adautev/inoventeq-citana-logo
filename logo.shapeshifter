@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "layers": {
+    "vectorLayer": {
+      "id": "65",
+      "name": "vector",
+      "type": "vector",
+      "width": 8,
+      "height": 7,
+      "children": [
+        {
+          "id": "63",
+          "name": "group",
+          "type": "group",
+          "children": [
+            {
+              "id": "22",
+              "name": "outer",
+              "type": "path",
+              "pathData": "M 6.912 5.251 L 3.885 6.776 L 0.839 5.25 L 0.82 2.199 L 3.848 0.674 L 6.894 2.2 Z",
+              "fillColor": "#000000",
+              "fillAlpha": 0,
+              "strokeColor": "#cf6200",
+              "strokeWidth": 0.25
+            },
+            {
+              "id": "42",
+              "name": "inner",
+              "type": "path",
+              "pathData": "M 5.086 4.336 L 3.874 4.946 L 2.655 4.335 L 2.647 3.114 L 3.859 2.504 L 5.078 3.115 Z",
+              "fillAlpha": 0,
+              "strokeColor": "#cf6200",
+              "strokeWidth": 0.25
+            },
+            {
+              "id": "52",
+              "name": "left",
+              "type": "path",
+              "pathData": "M 2.638 1.272 L 2.665 6.188",
+              "fillAlpha": 0,
+              "strokeColor": "#cf6200",
+              "strokeWidth": 0.270889
+            },
+            {
+              "id": "62",
+              "name": "right",
+              "type": "path",
+              "pathData": "M 5.067 1.299 L 5.095 6.068",
+              "fillAlpha": 0,
+              "strokeColor": "#cf6200",
+              "strokeWidth": 0.266912
+            }
+          ]
+        },
+        {
+          "id": "126",
+          "name": "group_1",
+          "type": "group",
+          "children": [
+            {
+              "id": "85",
+              "name": "outer_1",
+              "type": "path",
+              "pathData": "M 1.125 5.457 L 1.124 2.078 L 3.865 0.346 L 6.607 1.993 L 6.609 5.372 L 3.868 7.104 Z",
+              "fillColor": "#000",
+              "strokeWidth": 0.251288491
+            },
+            {
+              "id": "105",
+              "name": "inner_1",
+              "type": "path",
+              "pathData": "M 2.769 4.418 L 2.769 3.066 L 3.866 2.373 L 4.964 3.032 L 4.964 4.384 L 3.867 5.077 Z",
+              "fillColor": "#000",
+              "strokeAlpha": 0.955556,
+              "strokeWidth": 0.261758684
+            },
+            {
+              "id": "115",
+              "name": "left_1",
+              "type": "path",
+              "pathData": "M 6.619 4.028 L 2.201 1.372",
+              "fillColor": "#000",
+              "strokeAlpha": 0.959259,
+              "strokeWidth": 0.270889
+            },
+            {
+              "id": "125",
+              "name": "right_1",
+              "type": "path",
+              "pathData": "M 5.499 6.057 L 0.8 3.482",
+              "fillColor": "#000",
+              "strokeWidth": 0.266912
+            }
+          ]
+        }
+      ]
+    },
+    "hiddenLayerIds": [
+      "126"
+    ]
+  },
+  "timeline": {
+    "animation": {
+      "id": "2",
+      "name": "anim",
+      "duration": 300,
+      "blocks": [
+        {
+          "id": "2420",
+          "layerId": "22",
+          "propertyName": "pathData",
+          "startTime": 0,
+          "endTime": 300,
+          "interpolator": "ACCELERATE_DECELERATE",
+          "type": "path",
+          "fromValue": "M 6.912 5.251 L 3.885 6.776 L 0.839 5.25 L 0.82 2.199 L 3.848 0.674 L 6.894 2.2 Z",
+          "toValue": "M 1.125 5.457 L 1.124 2.078 L 3.865 0.346 L 6.607 1.993 L 6.609 5.372 L 3.868 7.104 Z"
+        },
+        {
+          "id": "6607",
+          "layerId": "42",
+          "propertyName": "pathData",
+          "startTime": 0,
+          "endTime": 300,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "path",
+          "fromValue": "M 5.086 4.336 L 3.874 4.946 L 2.655 4.335 L 2.647 3.114 L 3.859 2.504 L 5.078 3.115 Z",
+          "toValue": "M 2.769 4.418 L 2.769 3.066 L 3.866 2.373 L 4.964 3.032 L 4.964 4.384 L 3.867 5.077 Z"
+        },
+        {
+          "id": "7392",
+          "layerId": "52",
+          "propertyName": "pathData",
+          "startTime": 0,
+          "endTime": 300,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "path",
+          "fromValue": "M 2.638 1.272 L 2.665 6.188",
+          "toValue": "M 6.619 4.028 L 2.201 1.372"
+        },
+        {
+          "id": "7768",
+          "layerId": "62",
+          "propertyName": "pathData",
+          "startTime": 0,
+          "endTime": 300,
+          "interpolator": "FAST_OUT_SLOW_IN",
+          "type": "path",
+          "fromValue": "M 5.067 1.299 L 5.095 6.068",
+          "toValue": "M 5.499 6.057 L 1.1 3.482"
+        }
+      ]
+    }
+  }
+}
